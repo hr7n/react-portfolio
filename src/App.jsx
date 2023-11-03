@@ -1,11 +1,16 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
+import Header from './components/Header';
+import Nav from './components/Nav';
 import './App.css';
 
 function App() {
   return (
     <>
+      <header>
+        {' '}
+        <Header />{' '}
+      </header>
+      {/* <Nav />
+      <Header /> */}
       <div></div>
       <h1>React Portfolio</h1>
       <div className="card">
