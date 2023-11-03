@@ -1,13 +1,7 @@
 import Header from './components/Header/Header';
-import Nav from './components/Nav';
+import Nav from './components/Nav/Nav';
+import { Flex } from '@chakra-ui/react';
 import './App.css';
-
-// import {
-//   ApolloClient,
-//   InMemoryCache,
-//   ApolloProvider,
-//   createHttpLink,
-// } from '@apollo/client';
 
 function App() {
   return (
