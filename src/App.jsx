@@ -3,6 +3,8 @@ import Project from './components/Project/Project';
 import { Flex } from '@chakra-ui/react';
 import './App.css';
 
+import passwordGeneratorImage from './assets/images/projects/password-generator.png';
+
 const projects = [
   {
     title: 'Weather Dashboard',
@@ -17,6 +19,13 @@ const projects = [
       'A simple calendar application that allows the user to save events for each hour of the day. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.',
     image: 'https://via.placeholder.com/150',
     github: 'https://github.com/hr7n/work-day-scheduler',
+  },
+  {
+    title: 'Password Generator',
+    description:
+      'An application that generates a random password based on user-selected criteria. This app runs in the browser and features dynamically updated HTML and CSS powered by JavaScript.',
+    image: passwordGeneratorImage,
+    github: 'https://github.com/hr7n/password-generator',
   },
 ];
 
