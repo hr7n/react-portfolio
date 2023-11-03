@@ -15,7 +15,7 @@ const Project = ({ title, description, image, github }) => {
   return (
     <div className="project">
       {/* <p>{description}</p> */}
-      <a href={github}>
+      <a target="_blank" rel="noopener noreferrer" href={github}>
         <img
           className="project-image"
           src={image}
