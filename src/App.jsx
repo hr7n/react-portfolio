@@ -33,6 +33,7 @@ function App() {
         h="100vh"
         w="100vw"
       >
+        <div className="project-container"></div>
         {projects.map((project, index) => (
           <Project
             key={index}
@@ -42,7 +43,7 @@ function App() {
             github={project.github}
           />
         ))}
-        <Project />
+        {/* <Project /> */}
       </Flex>
     </>
   );
