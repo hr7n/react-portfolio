@@ -2,6 +2,14 @@ import Header from './components/Header';
 import Nav from './components/Nav';
 import './App.css';
 
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+}
+
+
 function App() {
   return (
     <>
