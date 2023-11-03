@@ -33,16 +33,17 @@ function App() {
         h="100vh"
         w="100vw"
       >
-        <div className="project-container"></div>
-        {projects.map((project, index) => (
-          <Project
-            key={index}
-            title={project.title}
-            description={project.description}
-            image={project.image}
-            github={project.github}
-          />
-        ))}
+        <div className="project-container">
+          {projects.map((project, index) => (
+            <Project
+              key={index}
+              title={project.title}
+              description={project.description}
+              image={project.image}
+              github={project.github}
+            />
+          ))}
+        </div>
         {/* <Project /> */}
       </Flex>
     </>
