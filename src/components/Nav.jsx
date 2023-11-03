@@ -1,29 +1,29 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
     <nav className="nav-container">
       <h1>Michael Horton</h1>
-      <ul className="flex space-x-4 list-none list-container">
+      <ul className="flex space-x-4 list-none">
         <li>
-          <Link className="link" to="/home">
+          <a href="#" className="text-white hover:text-gray-300">
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className="link text-white hover:text-gray-300" to="/about">
+          <a href="#" className="text-white hover:text-gray-300">
             About
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className="link text-white hover:text-gray-300" to="/projects">
+          <a href="#" className="text-white hover:text-gray-300">
             Projects
-          </Link>
+          </a>
         </li>
         <li>
-          <Link className="link text-white hover:text-gray-300" to="/contact">
+          <a href="#" className="text-white hover:text-gray-300">
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </nav>
